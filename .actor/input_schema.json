@@ -1,0 +1,16 @@
+{
+    "title": "Packagist Package Lookup Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "packageNames": {
+            "title": "Package names",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One or more Composer package names in \"vendor/package\" form, e.g. \"laravel/framework\", \"symfony/console\".",
+            "prefill": ["laravel/framework"],
+            "default": ["laravel/framework"]
+        }
+    },
+    "required": []
+}

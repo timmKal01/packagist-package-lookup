@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "packagist-package-lookup",
+    "title": "Packagist (PHP/Composer) Package Lookup",
+    "description": "Look up latest stable version, total/monthly/daily downloads, GitHub stats, and runtime dependencies for any PHP Composer package via the official Packagist API.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

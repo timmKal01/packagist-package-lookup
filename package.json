@@ -1,0 +1,15 @@
+{
+    "name": "packagist-package-lookup",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Look up Composer/PHP package version, downloads, GitHub stats, and dependencies via the official Packagist API.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}

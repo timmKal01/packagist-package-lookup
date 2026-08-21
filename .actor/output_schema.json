@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Packagist Package Lookup",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Package details",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
