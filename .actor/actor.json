@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "packagist-package-lookup",
-    "title": "Packagist (PHP/Composer) Package Lookup",
+    "title": "Packagist Lookup: PHP Composer Package Stats",
     "description": "Look up latest stable version, total/monthly/daily downloads, GitHub stats, and runtime dependencies for any PHP Composer package via the official Packagist API.",
     "version": "0.1",
     "meta": {
