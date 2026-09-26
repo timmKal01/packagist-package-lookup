@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "packageName",
+                    "found",
+                    "description",
+                    "totalDownloads",
+                    "monthlyDownloads",
+                    "dailyDownloads",
+                    "githubStars",
+                    "githubForks",
+                    "githubOpenIssues",
+                    "dependentsCount",
+                    "latestStableVersion",
+                    "latestVersionReleasedAt"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "packageName": {
+                        "label": "Package name",
+                        "format": "text"
+                    },
+                    "found": {
+                        "label": "Found",
+                        "format": "boolean"
+                    },
+                    "description": {
+                        "label": "Description",
+                        "format": "text"
+                    },
+                    "totalDownloads": {
+                        "label": "Total downloads",
+                        "format": "number"
+                    },
+                    "monthlyDownloads": {
+                        "label": "Monthly downloads",
+                        "format": "number"
+                    },
+                    "dailyDownloads": {
+                        "label": "Daily downloads",
+                        "format": "number"
+                    },
+                    "githubStars": {
+                        "label": "GitHub stars",
+                        "format": "number"
+                    },
+                    "githubForks": {
+                        "label": "GitHub forks",
+                        "format": "number"
+                    },
+                    "githubOpenIssues": {
+                        "label": "GitHub open issues",
+                        "format": "number"
+                    },
+                    "dependentsCount": {
+                        "label": "Dependents count",
+                        "format": "number"
+                    },
+                    "latestStableVersion": {
+                        "label": "Latest stable version",
+                        "format": "text"
+                    },
+                    "latestVersionReleasedAt": {
+                        "label": "Latest version released at",
+                        "format": "date"
+                    }
+                }
+            }
+        }
+    }
+}
