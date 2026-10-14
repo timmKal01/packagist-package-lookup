@@ -65,6 +65,6 @@ package names are requested.
 
 ## Related products
 
-- [NPM Download Stats Tracker](https://github.com/timmKal01/npm-download-stats-tracker)
-- [RubyGems Package Lookup](https://github.com/timmKal01/rubygems-package-lookup) — same snapshot-lookup shape, different ecosystem
-- [Homebrew Package Lookup](https://github.com/timmKal01/homebrew-package-lookup)
+- [npm Download Stats](https://apify.com/m_ctim/npm-download-stats-tracker)
+- [RubyGems Package Lookup](https://apify.com/m_ctim/rubygems-package-lookup): same snapshot-lookup shape, different ecosystem
+- [Homebrew Package Lookup](https://apify.com/m_ctim/homebrew-package-lookup)
